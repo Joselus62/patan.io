@@ -27,21 +27,3 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-function validateForm() {
- 
-  let x = document.forms["miFormulario"]["nombre"].value;
-  if (x == "") {
-    alert("Por Favor, debe Ingresar su Nombre");
-    return false;
-  } 
-  let y = document.forms["miFormulario"]["apellido"].value;
-  if (y == "") {
-    alert("Por Favor,debe Ingresar su Apellido");
-    return false;
-  } 
-  let z = document.forms["miFormulario"]["email"].value;
-  if (z == "") {
-    alert("Por Favor,debe Ingresar su Correo Electrónico");
-    return false;
-  } 
-}  

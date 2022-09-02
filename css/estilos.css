@@ -1,7 +1,7 @@
 header{border-style: solid;border-width: 5%;
    border-color: rgb(164, 164, 180);
    width: 100%;}
-input{background-color: lightgrey;font-size: large;font-style: italic;color: darkgreen;}
+
 .contenedor1 {display: flex;font-style: italic; color: darkgreen;
     background-color: rgb(1, 241, 101);font-size: x-large; width: 100%;
    }
@@ -17,94 +17,12 @@ a {color: darkgreen; text-decoration: none;
    font-style: italic;
    font-family: 'Times New Roman', Times, serif;}
 h2{ color: darkgreen; font-style: italic;}
-.footer{font-style: italic;font-family: 'Times New Roman', Times, serif;
-  color: darkgreen; text-align: center;
-  background-color:lightgrey; 
-  width: 100%;border-style: solid;border-color: rgb(164, 164, 180); 
-border-width: 5%;}
-.instagram{padding-top: 10px;}
 
 h5{color: blanchedalmond;}
 
 * { box-sizing: border-box;
    } 
-.container{ padding-left: 15%;
-padding-top: 1% ;width: 80%;}
-   
-.mySlides {padding-left: 15%;
-   padding-top: 2% ;
-   display: none;border-style: solid;
-   border-color: rgb(164, 164, 180);
-   border-width: 5%;
-   width: 80%;
-   height: 60%;
-   animation-name: example;
-   animation-duration: 30s;
-} 
-@keyframes example {
-  from {width: 80%; padding-left: 10%; }
-  to {width: 100%; padding-left: 15%;}
-}
 
-
-.cursor {cursor: pointer;
-   }
-   
-.prev,
-.next {cursor: pointer;
-   position: relative;
-   margin-top: -50%;
-   color: blue;
-   font-weight: bold;
-   font-size: 20px;
-   border-radius: 0 3px 3px 0;
-   user-select: none;
-   -webkit-user-select: none;
-   }
-   
-  .next {right: 0;
-     border-radius: 3px 0 0 3px;
-   }
-   
-  .prev:hover,
-  .next:hover {
-     background-color: rgba(143, 96, 224, 0.8);
-   }
-   
-  .numbertext {
-     color: #f2f2f2;
-     font-size: 12px;
-     padding: 8px 12px;
-     position: absolute;
-     top: 0;
-   }
-   
-  .caption-container {
-     text-align: center;
-     background-color: #222;
-     padding: 2px 16px;
-     color: white;
-   }
-   
-   .row:after {
-     content: "";
-     display: table;
-     clear: both;
-   }
-   
-  .column {
-     float: left;
-     width: 16.66%;
-   }
-   
-  .demo {
-     opacity: 0.6;
-   }
-   
-   .active,
-   .demo:hover {
-     opacity: 1;
-   }
    .contenedor{display: flex;
     background-color:
      rgb(34, 117, 145); margin: 10%; 
@@ -113,6 +31,12 @@ padding-top: 1% ;width: 80%;}
       border-width: 5%; color: rgb(247, 247, 248);
       font-style: italic;font-family: 'Times New Roman', Times, serif;
    }
+
+   .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
     .contenedor-item1{ width: 60%;}
     .contenedor-item2{width: 40%; text-align: right;}
     .mapa{padding-left: 25%;padding-right: 25%;}
