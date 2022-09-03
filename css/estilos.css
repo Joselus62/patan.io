@@ -5,7 +5,7 @@ header{border-style: solid;border-width: 5%;
 .contenedor1 {display: flex;font-style: italic; color: darkgreen;
     background-color: rgb(1, 241, 101);font-size: x-large; width: 100%;
    }
-h1{font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;}
+h1{font-weight: 400; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;}
 .contenedor1-item1{width: 30%;}
 .contenedor1-item2{padding: 3%;}
 .contenedor1-item3{padding: 3%;}
